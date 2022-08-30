@@ -1,0 +1,71 @@
+#first {
+    height: 200px;
+    width: 99%;
+    border: 5px solid black;
+    justify-content: center;   
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#first > div {
+    margin: 10px 20px;
+}
+
+#purp {
+    background-color:blueviolet;
+    height: 150px;
+    width: 50px;
+}
+
+#green {
+    height: 180px;
+    width: 450px;
+    background-color: green;
+}
+
+#blue {
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    background-color: cornflowerblue;
+}
+
+#second {
+    height: 200px;
+    width: 99%;
+    border: 5px dotted black;
+    justify-content: center;   
+    display: flex;
+    margin-top: 10px;
+}
+
+#second > div {
+    height: 75%;
+    width: 75%;
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    box-shadow: 5px 5px 5px 0px black;
+}
+
+.thirdDiv{
+    height: 250px;
+    width: 40%;
+    box-shadow: 0px 0px 5px 1px black;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:darkslateblue;
+
+}
